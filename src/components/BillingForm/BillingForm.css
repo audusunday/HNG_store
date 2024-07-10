@@ -1,0 +1,81 @@
+.billing-form-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.billing-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.discount-code {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.discount-code input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+.discount-code button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.discount-code button:hover {
+  background-color: #ccc;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+}
+
+.continue-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.continue-button:hover {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row input {
+    margin-bottom: 10px;
+  }
+}
